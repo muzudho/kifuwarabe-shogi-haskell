@@ -63,4 +63,33 @@ code
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　↑　あとは　Visual Studio Code を使おう」  
 
+```bash
+muzudho@muzudho-MS-7B09:~/Documents/git_hub/kifuwarabe-shogi-haskell$ git commit -a
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　↑　あれ？　`git commit -a`　コマンドが効かね？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　`docs` フォルダーを追加したからじゃないか？」  
+
+```bash
+git add docs
+git commit -a
+# ここでメッセージを保存
+
+git push
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　↑　おっ、いけた」  
+
 .
